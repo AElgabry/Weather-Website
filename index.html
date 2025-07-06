@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <script src="https://kit.fontawesome.com/36723166f8.js" crossorigin="anonymous"></script>
+        <title>
+            Assignment 13
+        </title>
+        <link rel="stylesheet" href="CSS/bootstrap.min.css">
+        <link rel="stylesheet" href="CSS/Style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-dark  py-5">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center text-white" href="#"><i class="fa-solid fa-cloud fa-2x me-2"></i><p class="fs-5 m-0">Weather <br><span class="fs-6"> tagline goes here</span></p></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-grow-0" id="navbarNavAltMarkup">
+                    <div class="navbar-nav text-white" >
+                        <a class="nav-link active text-white me-5" aria-current="page" href="#">Home</a>
+                        <a class="nav-link text-white me-5 " href="#">News</a>
+                        <a class="nav-link text-white me-5" href="#">Live Cameras</a>
+                        <a class="nav-link text-white me-5" href="#">Photos</a>
+                        <a class="nav-link text-white me-5" href="#">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="bg_color py-5">
+            <search class="container w-100 my-5 bg-dark d-flex rounded-pill p-1">
+            <input id="input" oninput="test()" type="text"  class=" bg-dark rounded-pill flex-grow-1 ms-2 text-white" placeholder="Find your location...">
+            <button class="btn btn-info rounded-pill px-3 fs-5 text-white">Find</button>
+        </search>
+        <temp id="temp" class="row container mx-auto bg-info p-0">
+            <div class="temp col-4 p-0 bg-dark text-white">
+                <div class="top d-flex justify-content-between align-items-center p-2">
+                    <p>Sunday</p>
+                    <p>6 July</p>
+                </div>
+                <div class="main mb-5 pb-5  px-2">
+                    <p class="mt-4">Cairo</p>
+                    <h1 class="fw-bold mb-5 ">25.5°C</h1>
+                </div>
+                <div class="condition">
+                    <p class="px-2 mb-3">Clear</p>
+                </div>
+                <div class="foot d-flex mb-4  px-2">
+                    <i class="fa-solid fa-umbrella me-1 pt-1 "></i><p class="me-3">20%</p>
+                    <i class="fa-solid fa-wind me-1 pt-1"></i><p class="me-3">18km/h</p>
+                    <i class="fa-regular fa-compass me-1 pt-1"></i><p class="me-3">East</p>
+                </div>
+            </div>
+            <div class="temp2 col-4 p-0 text-white">
+                <div class="top2 text-center py-2">
+                    <p>Sunday</p>
+                </div>
+                <div class="main mb-5 pb-5 text-center px-2">
+                    
+                    <h1 class="fw-bold my-5 ">25.5°C</h1>
+                </div>
+                <div class="condition text-center">
+                    <p class="px-2 mb-3 ">Clear</p>
+                </div>
+                <div class="foot d-flex mb-4 justify-content-center px-2">
+                    <i class="fa-solid fa-umbrella me-1 pt-1"></i><p class="me-3">20%</p>
+                    <i class="fa-solid fa-wind me-1 pt-1"></i><p class="me-3">18km/h</p>
+                    <i class="fa-regular fa-compass me-1 pt-1"></i><p class="me-3">East</p>
+                </div>
+            </div>
+            <div class="temp col-4 p-0 bg-dark text-white">
+                <div class="top text-center py-2">
+                    <p >Sunday</p>
+                </div>
+                <div class="main mb-5 pb-5 text-center px-2">
+                    
+                    <h1 class="fw-bold my-5 ">25.5°C</h1>
+                </div>
+                <div class="condition text-center">
+                    <p class="px-2 mb-3 ">Clear</p>
+                </div>
+                <div class="foot d-flex mb-4 justify-content-center px-2">
+                    <i class="fa-solid fa-umbrella me-1 pt-1"></i><p class="me-3">20%</p>
+                    <i class="fa-solid fa-wind me-1 pt-1"></i><p class="me-3">18km/h</p>
+                    <i class="fa-regular fa-compass me-1 pt-1"></i><p class="me-3">East</p>
+                </div>
+            </div>
+        </temp>
+        </div>
+        <div class="bg-dark  py-5 text-white">
+            <div class="row">
+                <div class="col-8">
+                    <search class="container w-75  d-flex rounded-pill p-1">
+                        <input type="email" class="bg-transparent rounded-pill flex-grow-1 ms-2 text-white" placeholder="Enter you email to subscribe...">
+                        <button class="text-white btn btn-info rounded-pill px-3 fs-5">Subscribe</button>
+                    </search>
+                </div>
+                <div class="col-4 d-flex align-items-center">
+                    <layer class="me-2 pt-2">
+                        <i class="fa-brands fa-facebook-f "></i>
+                    </layer>
+                    <layer class="me-2 pt-2">
+                        <i class="fa-brands fa-twitter "></i>
+                    </layer>
+                    <layer class="me-2 pt-2">
+                        <i class="fa-brands fa-google-plus-g "></i>
+                    </layer>
+                    <layer class="me-2 pt-2">
+                        <i class="fa-brands fa-pinterest "></i>
+                    </layer>
+                </div>
+            </div>
+            <p class="text-center mt-4">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+        <script src="Js/bootstrap.bundle.min.js"></script>
+        <script src="Js/index.js"></script>
+    </body>
+</html>

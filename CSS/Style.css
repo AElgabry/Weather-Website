@@ -1,0 +1,68 @@
+nav .collapse a:hover
+{
+    border: 2px solid lightskyblue;
+    color: lightskyblue !important;
+    border-radius: 50px;
+}
+
+input
+{
+    border-color: transparent;
+}
+layer
+{
+    background-color: black;
+    text-align: center;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    transition: ease 0.1s;
+}
+contact i
+{
+    color: lightskyblue;
+    text-align: center;
+    margin-top: 5px;
+}
+layer:hover
+{
+    background-color: lightskyblue;
+    color: white;
+}
+layer:hover i
+{
+    color: white;
+}
+.top
+{
+    background-color: #323232;
+}
+.main h1
+{
+    font-size: 80px;
+}
+.top2
+{
+    background-color: #3C3D37;
+}
+.temp2
+{
+    background-color: #181C14;
+}
+p
+{
+    margin: 0;
+}
+input:focus {
+    outline-width: 0;
+}
+
+.bg_color
+ {
+    background-color: #1A3636;
+
+}
+search
+{
+    background-color: #181C14;
+}
