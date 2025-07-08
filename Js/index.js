@@ -1,7 +1,7 @@
 var country = document.getElementById("input")
 async function test()
 {   
-    var url_1=" https://api.weatherapi.com/v1/forecast.json?key=16a06a05aa574756b9b10550250607&q="
+    var url_1="https://api.weatherapi.com/v1/forecast.json?key=16a06a05aa574756b9b10550250607&q="
     var input = country.value
     var url_2="&days=3"
     var link = url_1+input+url_2
