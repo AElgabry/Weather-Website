@@ -66,3 +66,7 @@ search
 {
     background-color: #181C14;
 }
+body
+{
+    overflow-x: hidden;
+}
